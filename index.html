@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ======== SWIPER JS CDN ========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <title>Portfolio website complete</title>
+
+
+            <!-- Demo styles -->
+   
+
+
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="./index.html" class="nav__logo">DegreatDev</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Dominion</span><br>Frontend <br> Developer</h1>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/osondu-dominion-79393b236" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/osondudodo?t=dPUIq4DTCJrQlTrcmV6RiQ&s=09" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://github.com/degreatdev" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="./assests1/images/headerimg.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./assests1/images/headerimg2.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Dominion</h2>
+                        <p class="about__text">I'm an undergraduate in Computer Science. My interests are in Front End Engineering, and 
+                            I love to create beautiful and performant products with frontend frameworks and web technologies for the best user experience...
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">I'm skilled and proficient in the following.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name"></span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">HTML5</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name"></span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">CSS3</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name"></span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">JAVASCRIPT</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                
+                                <i class='bx bxl-bootstrap skills__icon'></i>
+                                <span class="skills__name"></span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">BOOTSTRAP</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="./assests1/images/projectimage1.jpg" alt="">
+                        <img src="./assests1/images/projectimage5.jpg" alt="">
+                    </a>
+                   
+
+                    
+                    <a href="" class="work__img">
+                        <img src="./assests1/images/projectimage2.jpg" alt="">
+                        <img src="./assests1/images/projectimage4.jpg" alt="">
+                    </a>
+                    
+                    
+                    <a href="" class="work__img">
+                        <img src="./assests1/images/projectimage3.jpg" alt="">
+                        
+                    </a>
+                    
+
+                </div>
+
+                <!-- ========== LIVE DEMO HEADER -->
+                <div class="btn-live-header">
+                    <h3>BuildCon Site</h3>
+                    <h3>Tim-com Academy</h3>
+                    <h3>AirBnB Clone</h3>
+                </div>
+
+                <!-- ==== button for live demo -->
+                <div class="btn-live">
+                    <a href="https://degreatdev.github.io/Housing-Bulid-Landing-page/" class="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="https://degreatdev.github.io/Tim-Com-Academy/" class="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="https://github.com/degreatdev/AirBnB_clone" class="btn btn-primary" target="_blank">Repo Site</a>
+                </div>
+                
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/meqdzwrr" class="contact__form" method="POST">
+                        <input type="text" placeholder="First Name" class="contact__input" name="First Name" required>
+                        <input type="text" placeholder="Last Name" class="contact__input" name="Last Name" required>
+                        <input type="mail" placeholder="Email" class="contact__input" name="Email Address" required>
+                        <textarea name="Message" rows="10" class="contact__input" placeholder="Message" required></textarea>
+                        <button type="submit" class="contact__button button"> Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Dominion</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/osondu-dominion-79393b236" class="footer__icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://twitter.com/osondudodo?t=dPUIq4DTCJrQlTrcmV6RiQ&s=09" class="footer__icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://github.com/degreatdev" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; DegreatDev. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
