@@ -44,7 +44,17 @@
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
+
+  /* .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  } */
 }
+
+
 
 /*===== BASE =====*/
 *, ::before, ::after {
@@ -146,6 +156,14 @@ img {
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+  }
+
+  .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
   }
 }
 
@@ -287,6 +305,7 @@ img {
   gap: 5rem;
   margin-top: 0.4rem;
   margin-left: 12.5rem;
+  /* display: none; */
   
 }
 
@@ -297,8 +316,25 @@ img {
   gap: 3rem;
   height: 3rem;
   letter-spacing: 2px;
+  /* display: none; */
   /* border: 1px solid black; */
 }
+
+
+/* @media screen and (max-width: 500px) and (min-width: 300px){
+  .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  }
+
+  .btn{
+    display: none;
+  }
+  
+} */
 
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
@@ -409,6 +445,10 @@ img {
   transform: scale(1.1);
 }
 
+.btn-sm-live, .btn-sm-header{
+  display: none;
+}
+
 /* ===== CONTACT =====*/
 
 #contact{
@@ -471,6 +511,14 @@ img {
   .home__img {
     width: 200px;
   }
+
+  .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -513,6 +561,14 @@ img {
   .contact__container {
     justify-items: center;
   }
+
+  /* .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -570,6 +626,13 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+  /* .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -583,4 +646,45 @@ img {
   .home__img {
     width: 450px;
   }
+  /* .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  } */
+}
+
+@media screen and (min-width: 300px) and (max-width: 990px){
+  .btn-live{
+    display: none;
+  }
+  
+  .btn-live-header{
+    display:none
+  }
+
+  .btn-sm-live, .btn-sm-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -0.5rem; */
+    /* border: 1px solid black; */
+  }
+
+  .btn-sm-header h3{
+    margin-top: -0.8rem;
+    text-align: center;
+    height: 1.7rem;
+  }
+  .btn-sm-live a{
+    margin-top: -1rem;
+  }
+
+  .btn-build{
+    margin-top: -1.8rem;
+  }
+
+  
 }
