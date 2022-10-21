@@ -316,10 +316,14 @@ img {
   gap: 3rem;
   height: 3rem;
   letter-spacing: 2px;
+  
   /* display: none; */
   /* border: 1px solid black; */
 }
 
+.h3__btn{
+  margin-left: 0.5rem;
+}
 
 /* @media screen and (max-width: 500px) and (min-width: 300px){
   .btn-live{
@@ -427,6 +431,12 @@ img {
 }
 
 /* ===== WORK =====*/
+.work__section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  justify-items: center;
+}
 .work__container {
   row-gap: 2rem;
 }
